@@ -14,7 +14,7 @@ const ReviewItem = ({product , handleRemoveItem}) => {
             <div className="product-details">
                 <div className="product-info">
                     <h2>{name}</h2>
-                    <h3 >{price}</h3>
+                    <h3 >$ {price}</h3>
                     <p>Quantity: {quantity}</p>
                 </div>
                 <div className="dlt-btn">

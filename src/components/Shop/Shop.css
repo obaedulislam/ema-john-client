@@ -33,6 +33,41 @@
 .btn-text-review:hover{
     background-color: azure;
 }
+.pagination{
+    margin: 20px auto;
+}
+.pagination button{
+    font-size: 18px;
+    padding: 4px 10px;
+    margin: 0 5px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 5px;
+}
+.pagination button.selected{
+    background-color: chartreuse;
+    font-weight: 700;
+    color: #000;
+    padding: 5px 11px;
+}
+.pagination button:hover{
+    background-color: chartreuse;
+    color: #000;
+}
+select.selected-page{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 4px 5px;
+    margin: 0 5px;
+    background-color: chartreuse;
+    color: #000;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 5px;
+}
+
 @media only screen and (max-width: 900px) {
     .shopping-container{
         grid-template-columns: 2fr 1fr;
