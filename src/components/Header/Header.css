@@ -1,0 +1,49 @@
+.header{
+    background-color: #1C2B35;
+    width: 100% !important;
+}
+.nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.nav .menu ul{
+    display: flex;
+}
+.nav .menu ul li, .log-sign{
+    list-style:  none;
+    margin-left: 20px;
+}
+.nav .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 18px;
+}
+.nav .menu ul li a:hover{
+    color: #FF9900;
+}
+.logout-btn{
+    background: rgba(255, 153, 0, 0.5);
+    border: 0;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.logout-btn:hover{
+    background: rgba(255, 153, 0, 0.8);
+}
+
+@media only screen and (max-width: 600px) {
+    .shopping-container{
+        grid-template-columns: 3fr 1fr;
+        gap: 20px;
+        padding: 50px 0;
+    }
+    .nav img{
+        width: 80px;
+    }
+}
