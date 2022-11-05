@@ -135,6 +135,6 @@ const Shop = () => {
 
     </div>
   );
-};g
+};
 
 export default Shop;
